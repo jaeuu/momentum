@@ -1,8 +1,11 @@
-const loginForm = document.getElementById("login-form");
-const loginInput = loginForm.querySelector("input");
-const loginButton = loginForm.querySelector("button");
+const loginForm = document.querySelector("#login-form");
+const loginInput = document.querySelector("#login-form input");
 
-function onLoginBtnClick() {
-  dasdasdad;
+function onLoginSubmit(event) {
+  event.preventDefault();
+  const username = loginInput.value;
+  //form을 submit할때 입력값을 받아내는것이다.
+  console.log(username);
 }
-loginButton.addEventListener("click", onLoginBtnClick);
+
+loginForm.addEventListener("submit", onLoginSubmit);
