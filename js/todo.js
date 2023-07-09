@@ -14,10 +14,13 @@ function deleteToDo(event) {
   const li = event.target.parentElement;
   // 클릭된 <button>의 <li>를 말한다.
   li.remove(); //li를 삭제
+  toDos = toDos.filter((toDo) => toDo.id !== parseInt(li.id));
+  saveToDos();
 }
 
 function paintToDo(newToDo) {
   const li = document.createElement("li");
+  li.id = newTodo.id;
   const span = document.createElement("span");
   span.innerText = newToDo.text;
   const button = document.createElement("button");
