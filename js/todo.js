@@ -13,6 +13,11 @@ function saveToDos() {
 function deleteToDo(event) {
   const li = event.target.parentElement;
   li.remove();
+  toDos = toDos.filter((toDo) => toDo.id !== parseInt(li.id));
+  /* 클릭한 li의 id를 가지고 있는 todo를 지운다 */
+  /* li.id는 string타입이고 toDo.id는 number타입이므로 형 변환을 해준다. */
+  saveToDos();
+  /* localStorage에 있는 toDos를 업데이트 */
 }
 
 function paintToDo(newTodo) {
