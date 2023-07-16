@@ -16,10 +16,21 @@
 > 브라우저 최초 접속 시의 모습입니다. 위치를 허용하는 경우 현재 위치와 날씨, 기온을 보여줍니다.
 
 
+<br>
+<br>
+<br>
+<br>
+
+
 ![](https://velog.velcdn.com/images/limjaewoo/post/784a3e18-77e6-4ead-96e8-493937b1b602/image.png)
 
 
 > 로그인을 하면 로그인 시 작성한 닉네임으로 사용자를 맞이합니다.
+
+<br>
+<br>
+<br>
+<br>
 
 
 ![](https://velog.velcdn.com/images/limjaewoo/post/b860b81e-280b-4117-81a8-1503c3f24c45/image.png)
@@ -27,12 +38,20 @@
 
 
 > to do list를 등록하고, 삭제하는 등 오늘의 할 일 목록을 관리할 수 있습니다.
+<br>
+<br>
+<br>
+<br>
 
 ![](https://velog.velcdn.com/images/limjaewoo/post/5cfec53b-f7df-40a1-b108-667d0520aacd/image.png)
 
 
 > 사용자가 입력하는 정보는 브라우저의 local storage에 저장하여 브라우저를 새로고침하거나 종료하더라도 유효합니다.
 
+<br>
+<br>
+<br>
+<br>
 
 ![](https://velog.velcdn.com/images/limjaewoo/post/ccfb71ca-445a-49d8-9e35-427563fbce7c/image.png)
 
